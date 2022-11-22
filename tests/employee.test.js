@@ -11,7 +11,7 @@
 const employee = require('../lib/employee');
 
 test('name is string', function() {
-    var employee = Employee();
+    var employee = employee();
     expect(employee.name).toEqual(expect.any(String));
     
 })
