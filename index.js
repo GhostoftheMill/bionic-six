@@ -30,7 +30,14 @@ const managerProfile = function() {
         type: 'input',
         name: 'number',
         message: 'Enter manager phone number.',
-  ])};
+  ])
+  .then(answers => {
+    const  { name, id, email, officeNumber } = answers; 
+    const leader = new manager (name, id, email, officeNumber);
+
+    teamData.push(leader); 
+})
+};
   
 const nextProfile = function() {
         inquirer.prompt([
