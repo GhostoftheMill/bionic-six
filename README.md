@@ -3,6 +3,9 @@
 
   ## Description
   >This project uses JavaScript, node.js, Inquirer, & Jest to create a team profile from user input and renders it to HTML with CSS styling.
+
+  ## Complications
+  >This project is a work in progress. The code is currently non-functional. Our goal is to finish the code in the near future to provide a finished product.
   
   ## Table of Contents
   - [Installation](#installation)
@@ -24,4 +27,4 @@
   \
     [Send me an email](mailto:kevinmichaelwhite@gmail.com)
     \
-    [Click for Video of project in use](placeholder)
+    [Click for Video of project in use](https://drive.google.com/file/d/1vH8EEjLRPZ425dCdpKBftQnwigWSD2oz/view?usp=share_link)
